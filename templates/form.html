@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% if title %}
+		<title>Flask - {{title}}</title>
+	{% else %}
+		<title>Flask</title>
+	{% endif %}
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/main.css') }}">
+</head>
+<body>
+<!-- 
+{% block content %} -->
+	<form method="POST" action="/movie" class="movieForm">
+		<p class="movieName">MOVIE NAME</p> <br>
+		<input type="text" name="movie_name" list="movie_name" class="movieInput" />
+
+		<datalist id="movie_name">
+		{% for i in range(250)%}
+		<option value="{{mov[i]}}">
+		{% endfor %}
+		</datalist>
+		<br>
+		<input type="submit" value="GET DATA" class="movieSubmit" />
+	</form>
+<!-- {% endblock content %} -->
+
+
+</body>
+</html>

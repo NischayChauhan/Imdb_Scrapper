@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% if title %}
+		<title>Flask - {{title}}</title>
+	{% else %}
+		<title>Flask</title>
+	{% endif %}
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/main.css') }}">
+</head>
+<style type="text/css">
+  
+</style>
+<body>
+<!-- 
+{% block content %}
+ -->  
+      <div class="dataPage">
+        <span class="MovieName">{{data[6]}}</span>
+        
+
+        <br>
+        <br>
+        <span class="YG">  
+          <span class="Year"> {{data[8]}}</span> |
+          <span class="Genre"> {{data[10]}}</span> |
+          <span class="Rate"><span class="RatingStar">★</span><span class="Rating">{{data[5]}}</span>/10 (IMDB)</span>
+        </span>
+        <br>
+        <br>
+        <div class="Plot">
+          <span style="font-size: 25px;font-family: 'Times New Roman', Times, serif;"> {{data[3]}}</span>
+        </div>
+        <br>
+
+        <div class="cast">
+          <b><span style="font-size:30px;">D</span>irector: </b><span class="Director"> {{data[1]}}</span>
+          <br>  
+          <b><span style="font-size:30px;">A</span>rtists: </b><span class="Actor"> {{data[2]}}</span>
+        </div>
+        <br>
+        
+        <span class="PlotSummary"> {{data[4]}}</span>
+        <br>
+        <span class="Collection"> {{data[9]}}</span>
+        
+        <img src="{{data[11]}}" class="posterData">                
+      </div>
+
+        <img src="{{data[11]}}" class="poster">
+
+      <!-- <table border = 1>
+         {% for i in data %}
+         	<tr>
+               <th> {{i}} </th>
+            </tr>
+         {% endfor %}
+      </table> -->
+       <a href="{{ url_for('form')}}"><img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png" style="width:100px;height:100px"></a> 
+<!-- {% endblock content %}
+ -->
+ </body>
+ </html>

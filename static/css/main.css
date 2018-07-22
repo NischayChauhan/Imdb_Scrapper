@@ -1,0 +1,138 @@
+body{
+	background: linear-gradient(to right, #88b9e2, #243f94);
+	color: white;
+	font-family: cursive;
+}
+.movieForm{
+	color: white;
+	text-align: center;
+	position: absolute;
+	width: 100%	;
+	height: 100px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin:auto;
+
+}
+.movieName{
+	margin-top: -60px;
+	color: white;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+.movieInput{
+	max-height: 40px;
+	font-size: 30px;
+	border: none;
+	background-color: rgba(255,255,255,0.5);
+	width: 300px;
+}
+@media screen and (min-width: 500px){
+	.movieInput{
+		width: 600px;
+	}
+} 
+@media screen and (min-width: 800px){
+	.movieInput{
+		width: 1000px;
+	}
+} 
+.movieSubmit{
+	margin: 20px;
+	height: 40px;
+	border: none;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.2);
+	color: white;
+	cursor: pointer;
+}
+
+.dataPage{
+	background-color: rgba(255,255,255,0.3); 
+	color: black;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 50%;
+	height: 80%;
+	box-shadow: -5px 5px 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	word-wrap: break-word;
+}
+
+.posterData{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: -50px;
+	margin-top: -70px;
+	box-shadow: -5px 5px 15px;
+	border-radius: 5px;
+}
+.poster{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.3;
+	z-index: -1;
+}
+
+.MovieName{
+	font-size: 40px;
+	margin: 10px;
+}
+.Rate{
+	/*margin-left: 30px;*/
+}
+.RatingStar{
+	color: yellow;
+	font-size: 40px;
+}
+.Rating{
+	font-size: 35px;
+}
+
+.YG{
+	font-size: 18px;
+}
+.Year{
+	margin-left: 20px;
+}
+.Plot{
+  border-top: 1px solid #dbdbdb;
+  padding: 20px;
+}
+.cast{
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	padding: 30px;
+}
+.PlotSummary{
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	font-size: 20px;
+	display: inline-block;
+	word-wrap: break-word;
+}
+.Collection{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 20px;
+	font-size: 40px;
+	color: yellow;
+}
