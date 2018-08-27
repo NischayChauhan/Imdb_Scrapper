@@ -42,6 +42,8 @@ This app can be deployed on any python supported engine, AWS, IBM, Heroku etc.
 * CSS
 * JS
 * Python
+## Landing Page
+![img1](./static/Screenshot\ from\ 2018-07-22\ 18-18-05.png)
 
 ## Authors
 
