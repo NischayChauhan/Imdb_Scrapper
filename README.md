@@ -43,8 +43,9 @@ This app can be deployed on any python supported engine, AWS, IBM, Heroku etc.
 * JS
 * Python
 ## Landing Page
-![img1](./static/Screenshot\ from\ 2018-07-22\ 18-18-05.png)
-
+![img1](https://github.com/NischayChauhan/Imdb_Scrapper/blob/master/static/Screenshot%20from%202018-07-22%2018-18-05.png)
+## Generated Page
+![img2](https://github.com/NischayChauhan/Imdb_Scrapper/blob/master/static/Screenshot%20from%202018-07-22%2018-16-43.png)
 ## Authors
 
 * **Nischay Chauhan** - [linkedin](https://www.linkedin.com/in/nischaychauhan/)
